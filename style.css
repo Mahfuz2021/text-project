@@ -1,0 +1,83 @@
+  html{scroll-behavior: smooth;}
+
+ 
+.header{background: #3498db;}
+
+
+.header-logo img{width: 200px;}
+
+
+.primary-menu ul{text-align: right;
+margin-bottom: 0;}
+.primary-menu ul li{display: inline-block;
+margin-left: -4px;}
+.primary-menu ul li a{display: block;
+color: #fff;
+padding: 0 30px;
+font-size: 20px;
+line-height: 66px;
+border-right: 1px solid #fff;
+transition: .4s;}
+.primary-menu ul li a:hover{background: #2980b9;}
+
+.banner{background-image: url(./img/image-slider-with-thumbnail1.jpg);
+padding: 200px 0;
+background-repeat: no-repeat;
+background-size: cover;}
+
+.banner-text h2{
+    background: rgba(0, 0, 0, .4);
+    display: inline-block;
+    font-size: 32px;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.banner-text h1{
+    background: rgba(0, 81, 255, .5);
+    width: 500px;
+    font-size: 40px;
+    padding: 9px;
+    border-radius: 5px;
+    margin: auto;
+    color: #fff;
+    margin-top: 10px;
+}
+.about{background: #ecf0f1;}
+
+.service{background: #f9f9f9;}
+.service span{
+    background: green;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 20px 0;
+}
+
+img{max-width: 100%;}
+.product p{font-size: 18px;}
+
+.product-right ul{list-style: none;}
+
+.product-right ul li{
+    background: #ddd;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.product-right h2{border-bottom: 1px solid #ddd;
+margin-bottom: 12px;
+padding: 8px;}
+
+
+.footer{background: #34495e;}
+
+.text-right ul{list-style: none;}
+.text-right ul li{display: inline-block;}
+.text-right ul li a{display: block;
+padding: 0 10px;
+color: #fff;}
